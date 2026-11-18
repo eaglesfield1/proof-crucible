@@ -15,7 +15,7 @@ skill path:
 ```console
 mkdir my-campaign && cd my-campaign
 git init -b main
-git submodule add https://github.com/aoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoa/proof-crucible.git .crucible
+git submodule add https://github.com/forever-and-ever/proof-crucible.git .crucible
 .crucible/bin/crucible init --campaign my-campaign
 git add . && git commit -m 'Initialize Proof Crucible campaign'
 ```
@@ -79,3 +79,9 @@ not overlaid. Use synchronized `main` for the complete live campaign view.
 Run `scripts/check` for the protocol and validator suite.
 `scripts/check-campaign-template` additionally instantiates a fresh campaign and
 runs its complete strict Lean transaction.
+
+## Authorship
+
+This repository was created by [eternalist](https://github.com/forever-and-ever)
+and is now hosted on GitHub by `eaglesfield1`, who did not participate in
+creating it.
